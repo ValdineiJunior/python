@@ -9,4 +9,4 @@ restanteMinutos = restanteHoras % 3600
 minutos = restanteMinutos // 60
 segundos = restanteMinutos % 60
 
-print(dias,"dias",horas,"horas",minutos,"minutos",segundos,"segundos")
+print(dias,"dias,",horas,"horas,",minutos,"minutos e",segundos,"segundos.")
