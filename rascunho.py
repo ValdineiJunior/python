@@ -1,5 +1,4 @@
-A = 10
-a = 20
-a = 2 * a
-A = a + A
-print(a)
+i = 6
+while (i > 0):          
+    i = i - 3    
+    print (i) 
