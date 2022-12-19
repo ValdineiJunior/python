@@ -1,4 +1,7 @@
-i = 6
-while (i > 0):          
-    i = i - 3    
-    print (i) 
+i = 0
+while i < 3:
+  j = 0
+  while j < 3:
+    print(3 * i + j + 1, end=" ")
+    j = j + 1
+  i = i + 1

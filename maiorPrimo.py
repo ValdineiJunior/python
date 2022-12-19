@@ -1,18 +1,19 @@
-number = int(input("Digite um número maior ou igual a dois"))
-
-if (number<2):
-  print("esse número não é maior que dois")
-
-numeroPrimo = 2
-
-def calculaProximoNumerosPrimos(numeroAnterior):
-  stop == 0
-  while (stop == 1):
-    if ()
-
-def verificaSeNumeroEPrimo(numero):
-  result = false
-  counter = 0
-  iterator = numero
-  while (iterator > 1):
-    if (numero / iterator):
+def maior_primo(x):
+  def ePrimo(k):
+    counter = 0
+    divisor = k
+    while (divisor >= 1):
+      if (x % divisor == 0):
+        counter = counter + 1
+      divisor = divisor - 1
+    if (counter <= 2):
+      return True
+    if (counter > 2):
+      return False
+  teste = True
+  while (teste):
+    if (ePrimo(x)):
+      teste = False
+    else:
+      x = x - 1
+  return x
